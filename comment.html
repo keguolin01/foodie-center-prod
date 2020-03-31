@@ -200,7 +200,7 @@
 
 								for (var i = 0; i < myCommentList.length; i++) {
 									var date = myCommentList[i].createdTime;
-									var formatedTime = moment(date).format('YYYY年MM月DD日 h:mm:ss');
+									var formatedTime = moment(date).format('YYYY年MM月DD日 HH:mm:ss');
 									// console.log(formatedTime);
 									myCommentList[i].createdTime = formatedTime;
 								}

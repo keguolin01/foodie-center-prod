@@ -267,13 +267,13 @@
 
 								for (var i = 0; i < orderTrendList.length; i++) {
 									var payTimeTmp = orderTrendList[i].payTime;
-									var formatedPayTime = moment(payTimeTmp).format('YYYY年MM月DD日 h:mm:ss');
+									var formatedPayTime = moment(payTimeTmp).format('YYYY年MM月DD日 HH:mm:ss');
 									
 									var deliverTimeTmp = orderTrendList[i].deliverTime;
-									var formatedDeliverTime = moment(deliverTimeTmp).format('YYYY年MM月DD日 h:mm:ss');
+									var formatedDeliverTime = moment(deliverTimeTmp).format('YYYY年MM月DD日 HH:mm:ss');
 
 									var successTimeTmp = orderTrendList[i].successTime;
-									var formatedSuccessTime = moment(successTimeTmp).format('YYYY年MM月DD日 h:mm:ss');
+									var formatedSuccessTime = moment(successTimeTmp).format('YYYY年MM月DD日 HH:mm:ss');
 
 									orderTrendList[i].payTime = formatedPayTime;
 									orderTrendList[i].deliverTime = formatedDeliverTime;

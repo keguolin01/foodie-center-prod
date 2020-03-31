@@ -369,7 +369,7 @@
 
 								for (var i = 0; i < myOrderList.length; i++) {
 									var date = myOrderList[i].createdTime;
-									var formatedTime = moment(date).format('YYYY年MM月DD日 h:mm:ss');
+									var formatedTime = moment(date).format('YYYY年MM月DD日 HH:mm:ss');
 									// console.log(formatedTime);
 									myOrderList[i].createdTime = formatedTime;
 								}
